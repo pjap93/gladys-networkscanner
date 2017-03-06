@@ -1,0 +1,19 @@
+{
+  "name": "gladys-networkscanner",
+  "version": "0.1.0",
+  "description": "Gladys Network Scanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gladys",
+    "network",
+    "scanner"
+  ],
+  "author": "Pierre-Gilles Leymarie",
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "node-nmap": "^3.0.3"
+  }
+}
