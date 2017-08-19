@@ -1,6 +1,6 @@
 {
   "name": "gladys-networkscanner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gladys Network Scanner",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,7 @@
   "author": "Pierre-Gilles Leymarie",
   "license": "CC-BY-NC-SA-3.0",
   "dependencies": {
-    "node-nmap": "^3.0.3"
+    "node-nmap": "^3.0.3",
+	"net-ping": "^1.2.1"
   }
 }
