@@ -1,6 +1,6 @@
 {
   "name": "gladys-networkscanner",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Gladys Network Scanner",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
    "repository": {
     "type": "git",
-    "url": "https://github.com/pjap93/gladys-networkscanner"
+    "url": "https://github.com/pjap93/gladys-networkscanner/gladys-networkscanner.git"
   },
   "keywords": [
     "gladys",
@@ -19,6 +19,6 @@
   "license": "CC-BY-NC-SA-3.0",
   "dependencies": {
     "node-nmap": "^3.0.3",
-	"net-ping": "^1.2.1"
+    "net-ping": "^1.2.1"
   }
 }
