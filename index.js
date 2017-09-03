@@ -13,8 +13,8 @@ module.exports = function(sails) {
     });
     
     return {
-        scan,
-        setup,
+        scan: scan,
+        setup: setup,
         install: install,
         uninstall: uninstall
     };
