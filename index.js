@@ -5,6 +5,7 @@ module.exports = function(sails) {
     const init = require('./lib/init.js');
     const install = require('./lib/install.js');
     const uninstall = require('./lib/uninstall.js');
+    const setup = require('./lib/setup.js');
 
     gladys.on('ready', function(){
         scan();
@@ -13,6 +14,7 @@ module.exports = function(sails) {
     
     return {
         scan,
+        setup,
         install: install,
         uninstall: uninstall
     };
